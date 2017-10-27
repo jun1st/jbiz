@@ -1,5 +1,6 @@
 package com.marykay.mybiz.test;
 
+import com.marykay.mybiz.helper.DatabaseHelper;
 import com.marykay.mybiz.model.Customer;
 import com.marykay.mybiz.service.CustomerService;
 import org.junit.Assert;
@@ -20,7 +21,7 @@ public class CustomerServiceTest {
 
     @Before
     public void init() {
-
+//        DatabaseHelper.executeSqlFile("sql/customer_init.sql");
     }
 
     @Test
